@@ -1,0 +1,59 @@
+Coordinator started on localhost:9090. Waiting for clients...
+
+=== Starting Round 1 ===
+Client connected from ('127.0.0.1', 62486)
+Client connected from ('127.0.0.1', 62485)
+Client connected from ('127.0.0.1', 62487)
+Decryption time for client: 0.0001 seconds
+Decryption time for client: 0.0000 seconds
+Decryption time for client: 0.0000 seconds
+Model received and decrypted. Total models received: 3
+Model received and decrypted. Total models received: 1
+Model received and decrypted. Total models received: 2
+Performing Federated Averaging...
+Aggregation time: 0.0008 seconds
+Evaluating global model using test data...
+Test Accuracy: 88.29%
+Broadcasting global model to clients...
+Global model encrypted and sent to client. Encryption time: 0.0000 seconds
+Global model encrypted and sent to client. Encryption time: 0.0001 seconds
+Global model encrypted and sent to client. Encryption time: 0.0000 seconds
+
+=== Starting Round 2 ===
+Client connected from ('127.0.0.1', 62505)
+Client connected from ('127.0.0.1', 62506)
+Client connected from ('127.0.0.1', 62507)
+Decryption time for client: 0.0000 seconds
+Model received and decrypted. Total models received: 1
+Decryption time for client: 0.0000 seconds
+Model received and decrypted. Total models received: 2
+Decryption time for client: 0.0000 seconds
+Model received and decrypted. Total models received: 3
+Performing Federated Averaging...
+Aggregation time: 0.0002 seconds
+Evaluating global model using test data...
+Test Accuracy: 89.27%
+Broadcasting global model to clients...
+Global model encrypted and sent to client. Encryption time: 0.0000 seconds
+Global model encrypted and sent to client. Encryption time: 0.0000 seconds
+Global model encrypted and sent to client. Encryption time: 0.0000 seconds
+
+=== Starting Round 3 ===
+Client connected from ('127.0.0.1', 62525)
+Client connected from ('127.0.0.1', 62526)
+Client connected from ('127.0.0.1', 62527)
+Decryption time for client: 0.0000 seconds
+Model received and decrypted. Total models received: 1
+Decryption time for client: 0.0000 seconds
+Decryption time for client: 0.0000 seconds
+Model received and decrypted. Total models received: 3
+Model received and decrypted. Total models received: 2
+Performing Federated Averaging...
+Aggregation time: 0.0002 seconds
+Evaluating global model using test data...
+Test Accuracy: 88.78%
+Broadcasting global model to clients...
+Global model encrypted and sent to client. Encryption time: 0.0000 seconds
+Global model encrypted and sent to client. Encryption time: 0.0000 seconds
+Global model encrypted and sent to client. Encryption time: 0.0000 seconds
+All rounds completed. Final model evaluation done.
