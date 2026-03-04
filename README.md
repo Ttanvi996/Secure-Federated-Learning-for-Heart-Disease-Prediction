@@ -19,7 +19,6 @@ The objective is to demonstrate how machine learning can be deployed in healthca
 - Secure model parameter aggregation
 - Decentralized training simulation
 - Binary classification (Heart Disease: Yes / No)
-- ~88% test accuracy
 - Real-time monitoring support
 
 ## System Architecture
@@ -83,13 +82,6 @@ The dataset includes structured clinical attributes such as:
 - Precision
 - Recall
 - F1-Score
-
-## Results
-
-- Test Accuracy: ~88%
-- Balanced precision and recall
-- Demonstrated privacy-preserving collaborative training
-- Comparable performance to centralized training
 
 ## Privacy & Security
 
